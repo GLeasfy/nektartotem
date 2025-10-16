@@ -1,0 +1,33 @@
+root{
+    --primario: #fcc326;
+    --destaque: #e05b00;
+    --fundo: #F2E8DC;;
+    --texto: #222;
+    --fechar: #ff3300;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--fundo);
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+section.iframe{
+    width: 100vw;
+    height: auto;
+}
+
+section.iframe iframe{
+    width: 100vw;
+    height: 100vh;
+    border: none;
+}
+
