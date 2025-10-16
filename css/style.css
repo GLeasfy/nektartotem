@@ -1,4 +1,4 @@
-root{
+:root{
     --primario: #fcc326;
     --destaque: #e05b00;
     --fundo: #F2E8DC;;
@@ -29,5 +29,33 @@ section.iframe iframe{
     width: 100vw;
     height: 100vh;
     border: none;
+}
+
+section.iniciar{
+    background-color: var(--primario);
+    width: 60vw;
+    height: 10vh;
+    margin-top: 45vh;
+    margin-left: 20vw;
+    border-radius: 16px;
+    border: var(--destaque) 4px double;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+section.iniciar:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+section.iniciar a{
+    text-decoration: none;
+    color: var(--destaque);
+    font-size: 3rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
